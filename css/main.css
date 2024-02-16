@@ -138,11 +138,6 @@ footer {
   justify-content: space-between;
   flex-flow: row wrap;
   align-items: flex-start;
-
-  /* Add a Flexbox property to make the testimonial-content-wrapper a flex parent container. */
-  /* Add a justify-content property and value so that any extra space if the parent container is between the child flex items.  */
-  /* Add the Flexbox property flex-flow: row wrap; to allow the flex child items to wrap. */
-  /* Add align-items: flex-start; so that the background adjusts to the height of the testimonial. */
 }
 
 .testimonial {
@@ -156,10 +151,7 @@ footer {
 .footer-content-wrapper {
   display: flex;
   justify-content: space-around;
-  align-content: center;
-  /* Add a Flexbox property to make the testimonial-content-wrapper a flex parent container. */
-  /* Add a justify-content property and value so that any extra space if the parent container is around the child flex items.  */
-  /* Add a Flexbox property to align the contents at their center. */
+  align-items: center;
 }
 
 .contact-wrapper {
@@ -170,9 +162,6 @@ footer {
   display: flex;
   justify-content: center;
   gap: 20px;
-  /* Add a Flexbox property to make the icon-wrapper a flex parent container. */
-  /* Add a Flexbox property to center the icons in their parent container. */
-  /* Add gap: 20px; to create space between the icons. */
 }
 
 .contact-wrapper i {
@@ -195,7 +184,6 @@ footer {
 
   .wrap-reverse {
     flex-direction: row-reverse;
-    /* Add flex-direction: row-reverse; to change the direction of the second service */
   }
 
   .services-image {
@@ -225,7 +213,6 @@ footer {
 @media (min-width: 1200px) {
   .header-content-wrapper {
     justify-content: space-between;
-    /* Add a justify-content property and value so that any extra space if the parent container is between the h1 and "Book a Consultation link.  */
   }
 
   h1 {
@@ -241,10 +228,6 @@ footer {
     width: 25%;
     flex-direction: column;
     justify-content: flex-start;
-    /* Add flex-direction: column; so that the services card's child flex items are laid out in a column again. */
-
-    /* Add justify-content: flex-start; so the text is aligned at the top. */
-
     margin-bottom: 0;
   }
 
